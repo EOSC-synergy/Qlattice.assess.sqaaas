@@ -15,62 +15,62 @@ sqa_criteria:
     repos:
       github.com/jinluchang/Qlattice git:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-chocolate-okapi.sh
-        container: qc.acc_wimpy-sangria-magpie
+        - /usr/bin/env sh .sqa/script.wheezy-platinum-stoat.sh
+        container: qc.acc_lovely-jade-toad
   QC.Doc:
     repos:
       github.com/jinluchang/Qlattice find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-azure-slug.sh
-        container: qc.doc_boozy-cerise-bracke
+        - /usr/bin/env sh .sqa/script.lumpy-linen-neanderthal.sh
+        container: qc.doc_goopy-vermilion-nightingale
       github.com/jinluchang/Qlattice git:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-ultramarine-badger.sh
-        container: qc.doc_randy-red-snake
+        - /usr/bin/env sh .sqa/script.surly-coral-avocet.sh
+        container: qc.doc_sleazy-pumpkin-emu
       github.com/jinluchang/Qlattice markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-persimmon-dachsbracke.sh
-        container: qc.doc_snazzy-magnolia-chow
+        - /usr/bin/env sh .sqa/script.freaky-rust-audemer.sh
+        container: qc.doc_lovely-white-uakari
       github.com/jinluchang/Qlattice restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-aqua-dormouse.sh
-        container: qc.doc_nippy-ultramarine-spitz
+        - /usr/bin/env sh .sqa/script.gimpy-razzmatazz-shrimp.sh
+        container: qc.doc_skimpy-seashell-flounder
   QC.Lic:
     repos:
       github.com/jinluchang/Qlattice licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-amaranth-clam.sh
-        container: qc.lic_pokey-goldenrod-lobster
+        - /usr/bin/env sh .sqa/script.gummy-alizarin-dalmatian.sh
+        container: qc.lic_sunny-myrtle-nightingale
   QC.Sec:
     repos:
       github.com/jinluchang/Qlattice bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-razzmatazz-buzzard.sh
-        container: qc.sec_shaggy-firebrick-cockroach
+        - /usr/bin/env sh .sqa/script.flaky-cerise-duck.sh
+        container: qc.sec_tacky-jade-hyena
   QC.Sty:
     repos:
       github.com/jinluchang/Qlattice flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-red-tarantula.sh
-        container: qc.sty_whiny-amethyst-caterpillar
+        - /usr/bin/env sh .sqa/script.shabby-russet-goose.sh
+        container: qc.sty_leaky-wisteria-crab
       github.com/jinluchang/Qlattice jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-tangerine-beagle.sh
-        container: qc.sty_freaky-maroon-badger
+        - /usr/bin/env sh .sqa/script.sloppy-ecru-slug.sh
+        container: qc.sty_crappy-indigo-dormouse
       github.com/jinluchang/Qlattice oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-platinum-lobster.sh
-        container: qc.sty_slaphappy-wisteria-barb
+        - /usr/bin/env sh .sqa/script.scummy-olive-bear.sh
+        container: qc.sty_stuffy-lavender-mole
   QC.Uni:
     repos:
       github.com/jinluchang/Qlattice pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-olivine-olm.sh
-        container: qc.uni_tasty-azure-dalmatian
+        - /usr/bin/env sh .sqa/script.homey-celadon-bombay.sh
+        container: qc.uni_stinky-harlequin-monkey
   QC.Ver:
     repos:
       github.com/jinluchang/Qlattice get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-wheat-quoll.sh
-        container: qc.ver_muzzy-eggplant-goose
+        - /usr/bin/env sh .sqa/script.messy-ivory-gecko.sh
+        container: qc.ver_sunny-mustard-bongo
 timeout: 5400
